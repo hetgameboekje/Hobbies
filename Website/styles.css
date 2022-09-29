@@ -4,7 +4,7 @@ body {
 
 }
 
-
+/* Drop down css */
 .dropbtn {
   background-color: #04AA6D;
   color: white;
@@ -65,7 +65,7 @@ body {
 .show {
   display: block;
 }
-
+/*  */
 .navbarbox {
   position: relative;
   background-color: #1c2321;
