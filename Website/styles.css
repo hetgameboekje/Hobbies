@@ -1,64 +1,70 @@
-.box1 {
-    background-color:#6bedae;
-    position:relative;  
-    width: 700px;
-    top: 0px;
-    left: 0px;
-    margin: 10px;
-    border-radius:15px;
-    border:rgb(0, 0, 0) ;
-    box-shadow: 0 2px 4px darkslategray;
-  }
-  
-  .dropbtn {
-    background-color: #93ff96;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    border-radius:8px;
-  
-  }
-  
-  .dropbtn:hover, .dropbtn:focus {
-    background-color: #86e7b8;
-  }
-  
-  #myInput {
-    box-sizing: border-box;
-    background-image: url('ico/search.png');
-    background-position: 14px 12px;
-    background-repeat: no-repeat;
-    font-size: 16px;
-    padding: 14px 20px 12px 45px;
-    border: none;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  #myInput:focus {outline: 3px solid #ddd;}
-  
-  .dropdown {
-    position:fixed;
-    left:30px;
-    top: 30px;
-    display: inline-block;
-    z-index: 100;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f6f6f6;
-    min-width: 230px;
-    overflow: auto;
-    border: 1px solid #ddd;
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
+body {
+  background-color: #f2f5de;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #3e8e41;
+}
+
+#myInput {
+  box-sizing: border-box;
+  background-image: url('searchicon.png');
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 14px 20px 12px 45px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+#myInput:focus {outline: 3px solid #ddd;}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 230px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+.navbarbox{
+  position:relative;
+  background-color:#1c2321;
+  position:relative;  
+  width: 100%;
+  top: 0px;
+  left: -10px;
+  padding:10px;
+  border:rgb(0, 0, 0) ;
+  box-shadow: 0 2px 4px darkslategray;
+}
