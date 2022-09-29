@@ -3,7 +3,7 @@ toggle between hiding and showing the dropdown content */
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
   }
-  
+  /* When the user types in any keyword or phrase, the search function will search through the dropdown menu and display the results */
   function filterFunction() {
     var input, filter, ul, li, a, i;
     input = document.getElementById("myInput");
