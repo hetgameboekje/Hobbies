@@ -31,14 +31,16 @@ body {
 
 #myInput:focus {outline: 3px solid #ddd;}
 
-.dropdown {
+.dropdown {   
   position: relative;
+  left:93%;
   display: inline-block;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
+  left:-157px;
   background-color: #f6f6f6;
   min-width: 230px;
   overflow: auto;
@@ -61,10 +63,11 @@ body {
   position:relative;
   background-color:#1c2321;
   position:relative;  
-  width: 100%;
+  width: 98%;
   top: 0px;
-  left: -10px;
+  left: 0px;
   padding:10px;
   border:rgb(0, 0, 0) ;
+  border-radius:5px;
   box-shadow: 0 2px 4px darkslategray;
 }
