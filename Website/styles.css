@@ -1,5 +1,5 @@
 body {
-  background-color: #f2f5de;
+  background-color: #5e6572;
   font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -14,7 +14,8 @@ body {
   cursor: pointer;
 }
 
-.dropbtn:hover, .dropbtn:focus {
+.dropbtn:hover,
+.dropbtn:focus {
   background-color: #3e8e41;
 }
 
@@ -29,18 +30,20 @@ body {
   border-bottom: 1px solid #ddd;
 }
 
-#myInput:focus {outline: 3px solid #ddd;}
+#myInput:focus {
+  outline: 3px solid #ddd;
+}
 
-.dropdown {   
+.dropdown {
   position: relative;
-  left:93%;
+  left: 93%;
   display: inline-block;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  left:-157px;
+  left: -157px;
   background-color: #f6f6f6;
   min-width: 230px;
   overflow: auto;
@@ -55,19 +58,29 @@ body {
   display: block;
 }
 
-.dropdown a:hover {background-color: #ddd;}
+.dropdown a:hover {
+  background-color: #ddd;
+}
 
-.show {display: block;}
+.show {
+  display: block;
+}
 
-.navbarbox{
-  position:relative;
-  background-color:#1c2321;
-  position:relative;  
+.navbarbox {
+  position: relative;
+  background-color: #1c2321;
+  position: relative;
   width: 98%;
   top: 0px;
   left: 0px;
-  padding:10px;
-  border:rgb(0, 0, 0) ;
-  border-radius:5px;
+  padding: 10px;
+  border: rgb(0, 0, 0);
+  border-radius: 5px;
   box-shadow: 0 2px 4px darkslategray;
+}
+
+#logonav {
+  position: absolute;
+  left:0%;
+  width: 64px;
 }
