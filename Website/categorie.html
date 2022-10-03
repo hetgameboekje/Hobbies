@@ -49,9 +49,47 @@
     <script src="script.js"></script>
   </div>
   
+  <div class="blackBg"></div>
+
+<div class="Image1">
+  <div class="triangle"></div>
+  <img src="http://www.w3schools.com/css/img_fjords.jpg">
+  </div>
+<style>
+
+.Image1{
+position:absolute;
+  width:400px;
+  height:200px;
+}
+
+.Image1 img{
+  width:100%;
+  height:100%;
+}
+
+.Image1:before {
+    position: absolute;
+    content: "";
+    border-top: 200px solid red;
+    border-left: 200px solid transparent;
+    right: -1px;
+}
+#cube {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  background-color: red;
+  left:400px;
+}
 
 
 
+
+
+
+</style>
+<div id="cube"></div>
   <!-- This is the main content of the page -->
 </body>
 
