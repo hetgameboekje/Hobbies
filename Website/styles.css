@@ -121,8 +121,8 @@ position: relative;
   top:-60px;
   left: 0px;
   padding: 0 18px;
-  background-color: white;
-  width: 100%;
+  background-color: #ffffff;
+  width: 97%;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
@@ -133,7 +133,7 @@ position: relative;
 
 /* Style the search box */
 #mySearch {
-  width: 90%;
+  width: 100%;
   font-size: 18px;
   padding: 11px;
   border: 1px solid #ddd;
