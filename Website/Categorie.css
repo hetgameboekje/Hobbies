@@ -1,0 +1,6 @@
+.TBImage1{
+    position:absolute;
+      width:400px;
+      height:200px;
+      clip-path: polygon(0 0, 35% 0, 100% 100%, 0% 100%);
+    }
