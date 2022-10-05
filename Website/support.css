@@ -187,12 +187,25 @@ body {
     margin:5px;
     
   }
-  #box123{
-    width: 300px;
+  #box1{
+    width: 800px;
     height: 100px;
-    background-color: #45a049;
+    background-color: darkslategray;
     position: relative;
-    top: 100px;
-    left: 300px;
+    top: 0px;
+    left: 330px;
+    border-radius: 10px;
+    text-align: center;
+    color:#d5cd7c;
+  }
+
+  #box2{
+    width: 200px;
+    height: 300px;
+    background-color: blue;
+    position: relative;
+    top: 80px;
+    left: 330px;
     border-radius: 20px;
+    
   }
