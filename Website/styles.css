@@ -219,6 +219,8 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+  top: -50px;
+  position: relative;
 }
 
 /*this creates the main space for the footer of the webpage*/
@@ -282,4 +284,8 @@ input[type=submit]:hover {
   font-weight: bold;
   font-size: large;
 
+}
+#inschrijvingformuliertekst{
+  top: -50px;
+  position: relative;
 }
