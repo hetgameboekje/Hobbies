@@ -151,7 +151,7 @@ float:right;
   padding: 12px;
   text-decoration: none;
   color: black;
-  display: block
+  display:block;
 }
 
 #myMenu li a:hover {
