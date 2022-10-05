@@ -188,10 +188,11 @@ body {
     
   }
   #box123{
-    width: 100px;
+    width: 300px;
     height: 100px;
     background-color: #45a049;
     position: relative;
     top: 100px;
     left: 300px;
+    border-radius: 20px;
   }
