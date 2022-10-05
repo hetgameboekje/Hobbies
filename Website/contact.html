@@ -35,6 +35,8 @@
     <!-- The JS call function for search function -->
     <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Zoeken" title="Type in a category">
 <!-- Unordered list with all webpages -->
+    <!-- Link to javascript -->
+    <script src="script.js"></script>
     <ul id="myMenu">
       <li><a href="index.html"> <img src="ico/home.png" class="tbicons" alt=""> Home</a></li>
       <li><a href="categorie.html"><img src="ico/link.png" class="tbicons" alt="">Categorieën</a></li>
@@ -43,70 +45,121 @@
       <li><a href="#support"><img src="ico/home.png" class="tbicons" alt="">Support</a></li>
       <li><a href="#tools"><img src="ico/home.png" class="tbicons" alt="">Tools</a></li>
     </ul>
+  </div> 
+  
+
+
+  <div class="container1">
+    <form action="action_page.php">
+  
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Belgium</option>
+        <option value="usa">Brazil</option>
+        <option value="usa">Canada</option>
+        <option value="usa">China</option>
+        <option value="usa">Denmark</option>
+        <option value="usa">England</option>
+        <option value="usa">Germany</option>
+        <option value="usa">India</option>
+        <option value="usa">Italy</option>
+        <option value="usa">Japan</option>
+        <option value="usa">Mexico</option>
+        <option value="usa">Netherlands</option>
+        <option value="usa">New Sealand</option>
+        <option value="usa">Norway</option>
+        <option value="usa">Portugal</option>
+        <option value="usa">Russia</option>
+        <option value="usa">Spain</option>
+        <option value="usa">Sweden</option>
+        <option value="usa">Switzerland</option>
+        <option value="usa">Turkey</option>
+        <option value="usa">Urkrain</option>
+        
+      </select>
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      <a href="./inschrijving.html" class="btn success">Submit</a>
+      
+  
+    </form>
   </div>
   
-    <!-- Link to javascript -->
-    <script src="script.js"></script>
-
-<div class="container">
-  <form action="action_page.php">
-
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Belgium</option>
-      <option value="usa">Brazil</option>
-      <option value="usa">Canada</option>
-      <option value="usa">China</option>
-      <option value="usa">Denmark</option>
-      <option value="usa">England</option>
-      <option value="usa">Germany</option>
-      <option value="usa">India</option>
-      <option value="usa">Italy</option>
-      <option value="usa">Japan</option>
-      <option value="usa">Mexico</option>
-      <option value="usa">Netherlands</option>
-      <option value="usa">New Sealand</option>
-      <option value="usa">Norway</option>
-      <option value="usa">Portugal</option>
-      <option value="usa">Russia</option>
-      <option value="usa">Spain</option>
-      <option value="usa">Sweden</option>
-      <option value="usa">Switzerland</option>
-      <option value="usa">Turkey</option>
-      <option value="usa">Urkrain</option>
-      
-    </select>
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-    <a href="./inschrijving.html" class="btn success">Submit</a>
-    
-
-  </form>
-</div>
-
-<div id="contactfooter">
-   <div id="copyrightcontact">
-      <p>@copyright</p>
-      <br>
-      <p>all rights reserved for IHVH.</p>
-   </div>
-</div>
-
-
-<div id="contactfooter2">
-  <div id="copyrightcontact2">
-     <p>@copyright</p>
-     <br>
-     <p>all rights reserved for IHVH.</p>
+  
+  <div id="contactfooter2">
+    <div id="copyrightcontact2">
+       <p>@copyright</p>
+       <br>
+       <p>all rights reserved for IHVH.</p>
+    </div>
   </div>
-</div>
+<!-- 
+  <div class="container">
+    <form action="action_page.php">
+  
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Belgium</option>
+        <option value="usa">Brazil</option>
+        <option value="usa">Canada</option>
+        <option value="usa">China</option>
+        <option value="usa">Denmark</option>
+        <option value="usa">England</option>
+        <option value="usa">Germany</option>
+        <option value="usa">India</option>
+        <option value="usa">Italy</option>
+        <option value="usa">Japan</option>
+        <option value="usa">Mexico</option>
+        <option value="usa">Netherlands</option>
+        <option value="usa">New Sealand</option>
+        <option value="usa">Norway</option>
+        <option value="usa">Portugal</option>
+        <option value="usa">Russia</option>
+        <option value="usa">Spain</option>
+        <option value="usa">Sweden</option>
+        <option value="usa">Switzerland</option>
+        <option value="usa">Turkey</option>
+        <option value="usa">Urkrain</option>
+        
+      </select>
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      <a href="./inschrijving.html" class="btn success">Submit</a>
+      
+  
+    </form>
+  </div>
+  
+  <div id="contactfooter">
+     <div id="copyrightcontact">
+        <p>@copyright</p>
+        <br>
+        <p>all rights reserved for IHVH.</p>
+     </div>
+  </div>
+  
+  
+  <div id="contactfooter2">
+    <div id="copyrightcontact2">
+       <p>@copyright</p>
+       <br>
+       <p>all rights reserved for IHVH.</p>
+    </div>
+  </div> -->
 
 
 
