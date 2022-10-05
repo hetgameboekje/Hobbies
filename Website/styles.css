@@ -23,7 +23,7 @@ overflow-x:scroll
   box-shadow: 0 2px 4px darkslategray;
 }
 
-/*  Logo position within the navigationbar */
+/*  Logo position within the navigationbar fix*/
 #logonav {
   position: absolute;
   left: 0%;
