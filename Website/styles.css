@@ -12,9 +12,9 @@ overflow-x:scroll
 .navbarbox {
   position: relative;
   background-color: #1c2321;
-  height:50px;
+  height:80px;
   width: 98%;
-  top: 0px;
+  top: 9px;
   left: 0px;
   padding: 10px;
   border: rgb(0, 0, 0);
