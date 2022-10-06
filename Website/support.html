@@ -1,113 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Support page</title>
-    <link rel="stylesheet" href="support.css">
-</head>
-<body>
-    <!-- Link to css files, custom logo and title -->
 
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="icon" type="image/x-icon" href="ico/home.png">
-  <title>ihvh</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support page</title>
+  <link rel="stylesheet" href="support.css">
 </head>
 
 <body>
-  <!--Navigation bar with logo, text and menu dropdown-->
-  <div class="navbarbox">
-    <!--logo with clickable link to index.html-->
-    <!--Menu dropdown linked to script.js and styles.css-->
-    <div class="dropdown">
-      <!-- Catagories of searchbar -->
+  <!-- Link to css files, custom logo and title -->
 
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="ico/home.png">
+    <title>ihvh</title>
+  </head>
+
+  <body>
+    <!--Navigation bar with logo, text and menu dropdown-->
+    <div class="navbarbox">
+      <!--logo with clickable link to index.html-->
+      <!--Menu dropdown linked to script.js and styles.css-->
+      <div class="dropdown">
+        <!-- Catagories of searchbar -->
+
+      </div>
+      <script src="script.js"></script>
+      <!-- Logo is clickable and returns you to index.html -->
+      <a href="index.html">
+        <img src="ico/logoihvh.png" id="logonav" alt="">
+        <!-- Titles of top bar -->
+
+      </a>
+
+      <h2 id="textnavbar" style="color:#d5cd7c;">Ik Hou Van Hobby's</h2>
     </div>
-    <script src="script.js"></script>
-    <!-- Logo is clickable and returns you to index.html -->
-    <a href="index.html">
-      <img src="ico/logoihvh.png" id="logonav" alt="">
-      <!-- Titles of top bar -->
+    <!-- This is the animated menu bar  -->
+    <button type="button" class="collapsible"><img src="ico/menu.png" width="32px" alt=""><span
+        id="Buttontextdrp">Menu</span></button>
+    <!-- content is the part where the dropdown appears -->
+    <div class="content">
+      <!-- The JS call function for search function -->
+      <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Zoeken" title="Type in a category">
+      <!-- Unordered list with all webpages fix -->
+      <ul id="myMenu">
+        <li><a href="index.html"> <img src="ico/home.png" class="tbicons" alt=""> Home</a></li>
+        <li><a href="categorie.html"><img src="ico/link.png" class="tbicons" alt="">Categorieën</a></li>
+        <li><a href="contact.html"><img src="ico/contacts-book.png" class="tbicons" alt="">Contact</a></li>
+        <li><a href="about.html"><img src="ico/location.png" class="tbicons" alt="">About page</a></li>
+        <li><a href="support.html"><img src="ico/home.png" class="tbicons" alt="">Support</a></li>
+        <li><a href="#tools"><img src="ico/home.png" class="tbicons" alt="">Tools</a></li>
+      </ul>
 
-    </a>
+      <!-- Link to javascript -->
+      <script src="script.js"></script>
+    </div>
 
-    <h2 id="textnavbar" style="color:#d5cd7c;">Ik Hou Van Hobby's</h2>
-  </div>
-<!-- This is the animated menu bar  -->
-  <button type="button" class="collapsible"><img src="ico/menu.png" width="32px" alt=""><span
-      id="Buttontextdrp">Menu</span></button>
-      <!-- content is the part where the dropdown appears -->
-  <div class="content">
-    <!-- The JS call function for search function -->
-    <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Zoeken" title="Type in a category">
-<!-- Unordered list with all webpages fix -->
-    <ul id="myMenu">
-      <li><a href="index.html"> <img src="ico/home.png" class="tbicons" alt=""> Home</a></li>
-      <li><a href="categorie.html"><img src="ico/link.png" class="tbicons" alt="">Categorieën</a></li>
-      <li><a href="contact.html"><img src="ico/contacts-book.png" class="tbicons" alt="">Contact</a></li>
-      <li><a href="about.html"><img src="ico/location.png" class="tbicons" alt="">About page</a></li>
-      <li><a href="support.html"><img src="ico/home.png" class="tbicons" alt="">Support</a></li>
-      <li><a href="#tools"><img src="ico/home.png" class="tbicons" alt="">Tools</a></li>
-    </ul>
-    
-    <!-- Link to javascript -->
-    <script src="script.js"></script>
-  </div> 
-  
-  <div class="about-section">
-    <h1>support Page</h1>
-    <p>we are here to help you.</p>
-    <p>you can send us a mail and we will reply in at least 24 hours.</p>
-  </div>
-  
-  <h2 style="text-align:center">Our Team</h2>
-  <div class="row">
+    <div class="about-section">
+      <h1>support Page</h1>
+      <p>we are here to help you.</p>
+      <p>you can send us a mail and we will reply in at least 24 hours.</p>
+    </div>
+
+    <h2 style="text-align:center">Our Team</h2>
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="img/complainsupport.jpg" alt="Jane" style="width:100%" height="250">
+          <div class="container">
+            <h2>complains</h2>
+            <p class="title">kevin simon</p>
+            <p>if you have any complains mail to us.</p>
+            <p>kevinsimon435@gmail.com</p>
+            <a href="tel:+31 6 83586490">+31 6 83586490</a>
+            <br><br><button onclick="window.location='mailto:kevinsimon435@gmail.com';">mail now</button>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="img/Inschrijvensupport.jpg" alt="Mike" style="width:100%" height="250">
+          <div class="container">
+            <h2>issues</h2>
+            <p class="title">Timo bergthaler</p>
+            <p>if you have any issues with our site mail to us.</p>
+            <p>bergthaler.timo@gmail.com</p>
+            <a href="tel:+31 6 43145514">+31 6 43145514</a>
+            <br><br><button onclick="window.location='mailto:bergthaler.timo@gmail.com';">mail now</button>
+
+
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="img/issuessupport.jpg" alt="John" style="width:100%" height="250">
+          <div class="container">
+            <h2>commercial registrations</h2>
+            <p class="title">Sylvester vleugels</p>
+            <p>if you want to register commercially mail to us.</p>
+            <p>vleugels.sylvester@gmail.com</p>
+            <a href="tel:+31 6 83649145">+31 6 83649145</a>
+            <br><br><button onclick="window.location='mailto:vleugels.sylvester@gmail.com';">mail now</button>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="column">
       <div class="card">
-        <img src="img/complainsupport.jpg" alt="Jane" style="width:100%" height="250">
+        <img src="img/locationssupport.png" alt="John" style="width:100%" height="250">
         <div class="container">
-          <h2>complains</h2>
-          <p class="title">kevin simon</p>
-          <p>if you have any complains mail to us.</p>
-          <p>kevinsimon435@gmail.com</p>
-          <button onclick="window.location='mailto:kevinsimon435@gmail.com';">mail now</button>
+          <h2>locations</h2>
+          <p class="title">company place</p>
+          <p>The Netherlands,limburg Arendstraat 12, 6135 KT Sittard</p>
+          <p>Abduleali@hotmail.com</p>
+          <a href="tel:+31 6 85003336">+31 6 85003336</a>
+          <br><br><button onclick="window.location='mailto:mailto:Abduleali@hotmail.com';">mail now</button>
+
 
         </div>
       </div>
     </div>
-  
+    </div>
+
     <div class="column">
       <div class="card">
-        <img src="img/Inschrijvensupport.jpg" alt="Mike" style="width:100%" height="250">
+        <img src="img/sollicitatiesupport.png" alt="John" style="width:100%" height="250">
         <div class="container">
-          <h2>issues</h2>
-          <p class="title">Timo bergthaler</p>
-          <p>if you have any issues with our site mail to us.</p>
+          <h2>hiring</h2>
+          <p class="title">looking for people</p>
+          <p>mail us to get a new job</p>
           <p>bergthaler.timo@gmail.com</p>
-          <button onclick="window.location='mailto:bergthaler.timo@gmail.com';">mail now</button>
+          <a href="tel:+31 6 43145514">+31 6 43145514</a>
+          <br><br><button onclick="window.location='mailto:bergthaler.timo@gmail.com';">mail now</button>
+
 
         </div>
       </div>
     </div>
-  
+    </div>
+
     <div class="column">
       <div class="card">
-        <img src="img/issuessupport.jpg" alt="John" style="width:100%" height="250">
+        <img src="img/inschrijvensupport2.png" alt="John" style="width:100%" height="250">
         <div class="container">
-          <h2>commercial registrations</h2>
-          <p class="title">Sylvester vleugels</p>
+          <h2>personal registrations</h2>
+          <p class="title">for non commercial use</p>
           <p>if you want to register commercially mail to us.</p>
-          <p>vleugels.sylvester@gmail.com</p>
-          <button onclick="window.location='mailto:vleugels.sylvester@gmail.com';">mail now</button>
+          <p>moyara2003@gmail.com</p>
+          <a href="tel:+31 6 25109770">+31 6 25109770</a>
+          <br><br><button onclick="window.location='mailto:mailto:moyara2003@gmail.com';">mail now</button>
 
           
         </div>
       </div>
     </div>
   </div>
-  
-</body>
+  </body>
+
 </html>
