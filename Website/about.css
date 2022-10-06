@@ -53,16 +53,27 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
   }
+
   
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
-    background-color: #45a049;
+  /* CSS */
+  .button-17 {
+   color: aliceblue;
+   background-color: darkslategray;
+   border: none;
+   border-color: #d5cd7c;
+   padding-top: 22px;
+   padding-left: 25;
+   padding-right: 25px;
+   font-size: 30px;
+   font-weight: bolder;
+   margin-right: 10px;
+   text-decoration: none;
+   border-radius: 40px;
+   height: 15%;
+   width: 15%;
+   text-align: center;
   }
   
-  /* Add a background color and some padding around the form */
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
+  .button-17:hover {
+    transition-delay: 0,5s;
   }
-  
