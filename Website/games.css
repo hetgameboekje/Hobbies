@@ -1,3 +1,10 @@
+.TBImage1 {
+  position: absolute;
+  width: 400px;
+  height: 200px;
+  clip-path: polygon(0 0, 35% 0, 100% 100%, 0% 100%);
+}
+
 body {
   background-color: #5e6572;
   font-family: Tahoma, Verdana, sans-serif;
@@ -8,10 +15,11 @@ body {
   display: block;
 }
 
-/* Flexible box which contains the menu bar which is *not* from w3schools */
+/* Flexible box which contains the menu bar which is *not* from w3schools fix*/
 .navbarbox {
   position: relative;
   background-color: #1c2321;
+  position: relative;
   height: 50px;
   width: 98%;
   top: 0px;
@@ -22,7 +30,7 @@ body {
   box-shadow: 0 2px 4px darkslategray;
 }
 
-/*  Logo position within the navigationbar fix*/
+/*  Logo position within the navigationbar */
 #logonav {
   position: absolute;
   left: 0%;
@@ -34,6 +42,26 @@ body {
   position: absolute;
   top: 0%;
   left: 43%;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/*this creates the main space for the footer of the webpage*/
+#contactfooter {
+  background-color: darkslategray;
+  height: fit-content;
+  width: auto;
+}
+
+#copyrightcontact {
+  font-weight: bold;
+  font-size: large;
+
 }
 
 .btn {
@@ -59,26 +87,24 @@ body {
 /* New code css timo's dropdown */
 /* This is the menu bar's context box, which displays all sub-pages */
 .content {
-  position: relative;
-  top: -60px;
-  left: 0px;
+  float: right;
+  top: -66px;
   padding: 0 18px;
-  background-color: #ffffff;
-  width: 97%;
+  background-color: white;
+  width: 250px;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   margin-right: 1%;
-  display: inline-block;
 }
 
 
 /* Style the search box */
 #mySearch {
-  width: 100%;
+  width: 90%;
   font-size: 18px;
   padding: 11px;
-  border: 1px solid #1c2321;
+  border: 1px solid #ddd;
 }
 
 /* Style the navigation menu */
@@ -133,6 +159,112 @@ body {
 
 }
 
-#spookygame {
-  clip-path: polygon(65% 0, 100% 0, 100% 100%, 52% 100%);
-} 
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #ccc;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+  resize: vertical
+      /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/*this creates the main space for the footer of the webpage*/
+#contactfooter {
+  background-color: darkslategray;
+  height: fit-content;
+  width: auto;
+}
+
+#copyrightcontact {
+  font-weight: bold;
+  font-size: large;
+
+}
+
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Green */
+.success {
+  border-color: #04AA6D;
+  color: green;
+}
+
+.success:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+
+#fotoIHVH {
+  top: -195px;
+  left: 0px;
+  position: relative;
+}
+
+#inschrijftekst {
+  top: 100px;
+  left: 100px;
+  position: relative;
+}
+
+#contactlink {
+  top: 100px;
+  left: 100px;
+  position: relative;
+}
+
+/*this creates the main space for the footer of the webpage*/
+#contactfooter2 {
+  background-color: darkslategray;
+  height: fit-content;
+  width: auto;
+  top: 370px;
+  position: relative;
+}
+
+#copyrightcontact2 {
+  font-weight: bold;
+  font-size: large;
+
+}

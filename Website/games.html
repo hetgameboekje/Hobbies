@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html>
 <!-- Link to css files, custom logo and title -->
+
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/styles.min.css">
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/x-icon" href="ico/home.png">
   <title>ihvh</title>
 </head>
 
 <body>
-  <!--Navigation bar with logo, text and menu dropdown fix-->
+  <!--Navigation bar with logo, text and menu dropdown-->
   <div class="navbarbox">
     <!--logo with clickable link to index.html-->
     <!--Menu dropdown linked to script.js and styles.css-->
@@ -34,7 +37,7 @@
   <div class="content">
     <!-- The JS call function for search function -->
     <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Zoeken" title="Type in a category">
-<!-- Unordered list with all webpages -->
+<!-- Unordered list with all webpages fix -->
     <ul id="myMenu">
       <li><a href="index.html"> <img src="ico/home.png" class="tbicons" alt=""> Home</a></li>
       <li><a href="categorie.html"><img src="ico/link.png" class="tbicons" alt="">Categorie&euml;n</a></li>
@@ -44,12 +47,196 @@
       <li><a href="#tools"><img src="ico/home.png" class="tbicons" alt="">Tools</a></li>
     </ul>
   </div>
-  
+
     <!-- Link to javascript -->
     <script src="script.js"></script>
-
-    <center><img src="img/Games_font.png" height="60px" ></center>
-    <img src="img/spooky game.jpg" id="spookygame">
+    <!-- Bootstrap code
+     -->
+ 
+          
+        
+        
+          
+  <div class="container py-4 py-xl-5">
+    <div class="row mb-5">
+      <div class="col-md-8 col-xl-6 text-center mx-auto">
+        <img src="img/Games_font.png">
+        <p class="w-lg-50">Curae hendrerit donec commodo hendrerit egestas tempus, turpis facilisis nostra nunc.
+          Vestibulum dui eget ultrices.</p>
+      </div>
+    </div>
+    <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
+      <div class="col">
+        <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;"
+            src="assets/img/zwemmend-redden.jpg">
+          <div class="card-body p-4">
+            <p class="text-primary card-text mb-0"><a href="Zwemmen.html">Article</a></p>
+            <h4 class="card-title">Reddingszwemmen</h4>
+            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac
+              facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+            <div class="d-flex"><img class="rounded-circle flex-shrink-0 me-3 fit-cover" width="50" height="50"
+                src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png">
+              <div>
+                <p class="fw-bold mb-0">John Smith</p>
+                <p class="text-muted mb-0">Erat netus</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;"
+            src="assets/img/regels-baantjes-zwemmen-1170x500-1.jpg">
+          <div class="card-body p-4">
+            <p class="text-primary card-text mb-0"><a href="Zwemmen.html">Article</a></p>
+            <h4 class="card-title">Baantjes trekken</h4>
+            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac
+              facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+            <div class="d-flex"><img class="rounded-circle flex-shrink-0 me-3 fit-cover" width="50" height="50"
+                src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png">
+              <div>
+                <p class="fw-bold mb-0">John Smith</p>
+                <p class="text-muted mb-0">Erat netus</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;"
+            src="assets/img/duinrell-abonnement.jpg">
+          <div class="card-body p-4">
+            <p class="text-primary card-text mb-0"><a href="Zwemmen.html">Article</a></p>
+            <h4 class="card-title">Vrij zwemmen</h4>
+            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac
+              facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+            <div class="d-flex"><img class="rounded-circle flex-shrink-0 me-3 fit-cover" width="50" height="50"
+                src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png">
+              <div>
+                <p class="fw-bold mb-0">John Smith</p>
+                <p class="text-muted mb-0">Erat netus</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <center><img src="img/Anime_font.png"></center>
+      <div class="col-xl-12 col-xxl-12">
+        <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
+          <div class="col">
+            <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;"
+                src="assets/img/sporten.jpg">
+              <div class="card-body p-4">
+                <p class="text-primary card-text mb-0">Article</p>
+                <h4 class="card-title">Fitness&nbsp;</h4>
+                <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac
+                  facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                <div class="d-flex"><img class="rounded-circle flex-shrink-0 me-3 fit-cover" width="50" height="50"
+                    src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png">
+                  <div>
+                    <p class="fw-bold mb-0">John Smith</p>
+                    <p class="text-muted mb-0">Erat netus</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;"
+                src="assets/img/wat-is-airsoft-1-1280x853.jpg">
+              <div class="card-body p-4">
+                <p class="text-primary card-text mb-0">Article</p>
+                <h4 class="card-title">Airsoft</h4>
+                <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac
+                  facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                <div class="d-flex"><img class="rounded-circle flex-shrink-0 me-3 fit-cover" width="50" height="50"
+                    src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png">
+                  <div>
+                    <p class="fw-bold mb-0">John Smith</p>
+                    <p class="text-muted mb-0">Erat netus</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;"
+                src="assets/img/mma.jpg">
+              <div class="card-body p-4">
+                <p class="text-primary card-text mb-0">Article</p>
+                <h4 class="card-title">Kickboxen</h4>
+                <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac
+                  facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                <div class="d-flex"><img class="rounded-circle flex-shrink-0 me-3 fit-cover" width="50" height="50"
+                    src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png">
+                  <div>
+                    <p class="fw-bold mb-0">John Smith</p>
+                    <p class="text-muted mb-0">Erat netus</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-12 col-xxl-12">
+        <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
+          <div class="col">
+            <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;"
+                src="assets/img/Football_in_Bloomington,_Indiana,_1996.jpg">
+              <div class="card-body p-4">
+                <p class="text-primary card-text mb-0">Article</p>
+                <h4 class="card-title">Voetbal</h4>
+                <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac
+                  facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                <div class="d-flex"><img class="rounded-circle flex-shrink-0 me-3 fit-cover" width="50" height="50"
+                    src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png">
+                  <div>
+                    <p class="fw-bold mb-0">John Smith</p>
+                    <p class="text-muted mb-0">Erat netus</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;"
+                src="assets/img/piano.jpg">
+              <div class="card-body p-4">
+                <p class="text-primary card-text mb-0">Article</p>
+                <h4 class="card-title">Instrument bespelen</h4>
+                <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac
+                  facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                <div class="d-flex"><img class="rounded-circle flex-shrink-0 me-3 fit-cover" width="50" height="50"
+                    src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png">
+                  <div>
+                    <p class="fw-bold mb-0">John Smith</p>
+                    <p class="text-muted mb-0">Erat netus</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;"
+                src="assets/img/omaoortjes.jpg">
+              <div class="card-body p-4">
+                <p class="text-primary card-text mb-0">Article</p>
+                <h4 class="card-title">Muziek luisteren</h4>
+                <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac
+                  facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                <div class="d-flex"><img class="rounded-circle flex-shrink-0 me-3 fit-cover" width="50" height="50"
+                    src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png">
+                  <div>
+                    <p class="fw-bold mb-0">John Smith</p>
+                    <p class="text-muted mb-0">Erat netus</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+   
       
 
 
