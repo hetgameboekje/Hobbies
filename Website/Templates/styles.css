@@ -1,7 +1,8 @@
 body {
   background-color: #5e6572;
   font-family: Tahoma, Verdana, sans-serif;
-overflow-x:scroll
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .show {
@@ -12,8 +13,8 @@ overflow-x:scroll
 .navbarbox {
   position: relative;
   background-color: #1c2321;
-  height:80px;
-  width: 98%;
+  height: 80px;
+  width: 100%;
   top: 9px;
   left: 0px;
   padding: 10px;
@@ -59,23 +60,23 @@ overflow-x:scroll
 /* New code css timo's dropdown */
 /* This is the menu bar's context box, which displays all sub-pages */
 .content {
-position: relative;
-  top:-60px;
+  position: relative;
+  top: -60px;
   left: 0px;
   padding: 0 18px;
   background-color: #ffffff;
-  width: 97%;
+  width: 100%;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  margin-right:1%;
+  margin-right: 1%;
   display: inline-block;
 }
 
 
 /* Style the search box */
 #mySearch {
-  width: 100%;
+  width: 50%;
   font-size: 18px;
   padding: 11px;
   border: 1px solid #1c2321;
@@ -104,9 +105,9 @@ position: relative;
 
 /* This is the styling of the collapsible dropdown navigation  */
 .collapsible {
-  position:relative;
-  left:90%; 
-  top:-66px;
+  position: relative;
+  left: 90%;
+  top: -66px;
   background-color: #d5cd7c;
   color: white;
   padding: 12px;
@@ -124,10 +125,158 @@ position: relative;
   top: -5px;
   font-family: Arial, Helvetica, sans-serif;
 }
-.tbicons{
+
+.tbicons {
   position: relative;
-  top:8px;
+  top: 8px;
   height: 16px;
-  margin:5px;
-  
+  margin: 5px;
+
+}
+
+/* footer */
+style.css * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+
+footer {
+  background-color: #5e6572;
+  position: relative;
+  width: 100%;
+  min-height: 350px;
+  padding: 3rem 1rem;
+}
+
+.ftcontainer {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+
+}
+
+.ftrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ftcol {
+  min-width: 250px;
+  color: #f2f2f2f2;
+  font-family: poppins;
+  padding: 0 2rem;
+}
+
+.ftcol .logo {
+  width: 100px;
+  margin-bottom: 25px;
+  border-radius: 50%;
+}
+
+.ftcol h3 {
+  color: #d5cd7c;
+  margin-bottom: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.ftcol h3::after {
+  content: '';
+  height: 3px;
+  width: 0px;
+  background-color: #d5cd7c;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.3s ease;
+
+}
+
+.ftcol h3:hover::after {
+  width: 30px
+}
+
+.ftcol .social a i {
+  color: #d5cd7c;
+  margin-top: 2rem;
+  margin-right: 5px;
+  transition: 0.3s ease;
+}
+
+.ftcol .social a i:hover {
+  transform: scale(1.5);
+  filter: grayscale(25);
+}
+
+.ftcol .links a {
+  display: block;
+  text-decoration: none;
+  color: #f2f2f2;
+  margin-bottom: 5px;
+  position: relative;
+  transition: 0.3s ease;
+}
+
+.ftcol .links a::before {
+  content: '';
+  height: 16px;
+  width: 3px;
+  position: absolute;
+  top: 5px;
+  left: -10px;
+  background-color: #d5cd7c;
+  transition: 0.5s ease;
+  opacity: 0;
+}
+
+.ftcol .links a:hover::before {
+  opacity: 1;
+}
+
+.ftcol .links a:hover {
+  transform: translateX(-8px);
+  color: #d5cd7c;
+}
+
+.ftcol .contact-details {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.ftcol .contact-details i {
+  margin-right: 15px;
+}
+
+.ftrow .ftform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.ftrow .ftform input {
+  background-color: wheat;
+  border: 0;
+  outline: none;
+  padding: 14px 20px;
+  border-radius: 6px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.ftform button {
+  padding: 14px 20px;
+  border: 0;
+  border-radius: 6px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: #d5cd7c;
 }
