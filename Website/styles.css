@@ -4,7 +4,28 @@ body {
   max-width: 100%;
   overflow-x: hidden;
 }
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 6.9px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 6.9px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #d5cd7c; 
+  border-radius: 6.9px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #817c4b; 
+}
 .show {
   display: block;
 }
