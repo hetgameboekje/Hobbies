@@ -73,3 +73,60 @@ body {font-family: Verdana, sans-serif;}
   background: #1abc9c;
   color: white !important
 }
+
+.openinghours {
+  font-family:Lucida Console;
+  border-radius:4px;
+  margin:10px;
+  box-shadow: 0 0 10px black;
+  padding:0 10px 0 10px;
+  overflow: hidden;
+  display: inline-block;
+}
+.openinghourscontent {
+  float:left;
+}
+.openinghourscontent h2 {
+  display:block;
+  text-align:center;
+  margin-top:.33em;
+}
+.openinghourscontent button {
+  color:white;
+  font-family:Courier New;
+  font-size:large;
+  font-weight:bolder;
+  background-color:#4679BD;
+  border-radius:4px;
+  width:100%;
+  margin-bottom:10px;
+}
+.today {
+  color: #8AC007;
+}
+.opening-hours-table tr td:first-child {
+  font-weight:bold;
+}
+#open-status {
+  display:block;
+  margin-top:-1em;
+  text-align:center;
+  border:dotted lightgrey 3px;
+}
+.openorclosed:after {
+  content:" open during these hours:";
+}
+.open {
+  color:green;
+}
+.open:after {
+  content:" Open";
+  color: #6C0;
+}
+.closed:after {
+  content:" Closed";
+  color: red;
+}
+.opening-hours-table tr td {
+  padding:5px;
+}
