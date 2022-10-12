@@ -77,7 +77,9 @@ body {
   background-color: #04AA6D;
   color: white;
 }
-
+a{
+  text-decoration: none;
+}
 /* New code css timo's dropdown */
 /* This is the menu bar's context box, which displays all sub-pages */
 .content {
