@@ -13,6 +13,43 @@
 </head>
 <body>
 
+    <!--Navigation bar with logo, text and menu dropdown-->
+  <div class="navbarbox">
+    <!--logo with clickable link to index.html-->
+    <!--Menu dropdown linked to script.js and styles.css-->
+    <div class="dropdown">
+      <!-- Catagories of searchbar -->
+
+    </div>
+    <script src="script.js"></script>
+    <!-- Logo is clickable and returns you to index.html -->
+    <a href="index.html">
+      <img src="ico/logoihvh.png" id="logonav" alt="">
+      <!-- Titles of top bar -->
+
+    </a>
+
+    <h2 id="textnavbar" style="color:#d5cd7c;">Ik Hou Van Hobby's</h2>
+  </div>
+<!-- This is the animated menu bar  -->
+  <button type="button" class="collapsible"><img src="ico/menu.png" width="32px" alt=""><span
+      id="Buttontextdrp">Menu</span></button>
+      <!-- content is the part where the dropdown appears -->
+  <div class="content">
+    <!-- The JS call function for search function -->
+    <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Zoeken" title="Type in a category">
+<!-- Unordered list with all webpages fix -->
+    <ul id="myMenu">
+      <li><a href="index.html"> <img src="ico/home.png" class="tbicons" alt=""> Home</a></li>
+      <li><a href="contact.html"><img src="ico/contacts-book.png" class="tbicons" alt="">Contact</a></li>
+      <li><a href="about.html"><img src="ico/location.png" class="tbicons" alt="">About page</a></li>
+      <li><a href="support.html"><img src="ico/home.png" class="tbicons" alt="">Support</a></li>
+      <li><a href="agenda.html"><img src="ico/home.png" class="tbicons" alt="">agenda</a></li>
+    </ul>
+  </div>
+
+    <!-- Link to javascript -->
+    <script src="script.js"></script>
     <section class="py-4 py-xl-5">
         <div class="container">
             <div class="bg-dark border rounded border-0 border-dark overflow-hidden">
