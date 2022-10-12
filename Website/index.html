@@ -29,7 +29,11 @@
       <!-- Titles of top bar -->
 
     </a>
-
+    <div class="row">
+      <div class="column" onclick="openTab('b1');" style="background:rgb(250, 232, 200) ">
+        <h3>Login</h3>
+      </div>
+    </div>
     <h2 id="textnavbar" style="color:#d5cd7c;">Ik Hou Van Hobby's</h2>
   </div>
   <!-- This is the animated menu bar  -->
@@ -49,8 +53,26 @@
     </ul>
   </div>
 
+  <!-- Code for dropdown login button -->
+  <!-- The expanding grid (hidden by default) -->
+  <div id="b1" class="containerTab" style="display:none;background:rgb(250, 232, 200)">
+    <!-- If you want the ability to close the container, add a close button -->
+    <span onclick="this.parentElement.style.display='none'" class="closebtn"><img src="ico/x-square.png" width="32px"
+        alt=""></span>
+    <p>
+      <iframe
+        src="https://script.google.com/macros/s/AKfycbwC6knDhBBZe9bqS0a0enhTtDZAsF031WvrcIDPaYBSzKrqABmnI4EqcFSI62SsOPAJ/exec"
+        width="400px" height="400px;" scrolling="no" style="border: none ;" frameborder="0"></iframe>
+    </p>
+  </div>
+
+
   <!-- Link to javascript -->
   <script src="script.js"></script>
+
+
+
+
   <!-- Bootstrap code
      -->
   <section class="py-4 py-xl-5">
@@ -111,8 +133,10 @@
           <div>
             <h4>Veiligheid</h4>
             <p>Wij streven voor veiligheid. Wees voorzichtig voor elkaar, maar ook voor jezelf, hou je aan deze
-              veiligheidprotocolen</p><a href="https://www.volandis.nl/werk-veilig/instrumenten/adviezen/advies-veiligheidsprotocol-opleidingsbedrijven">Veiligheids-protocool&nbsp;<svg xmlns="https://www.wetrecht.nl/aansprakelijkheid/"
-                width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-right">
+              veiligheidprotocolen</p><a
+              href="https://www.volandis.nl/werk-veilig/instrumenten/adviezen/advies-veiligheidsprotocol-opleidingsbedrijven">Veiligheids-protocool&nbsp;<svg
+                xmlns="https://www.wetrecht.nl/aansprakelijkheid/" width="1em" height="1em" fill="currentColor"
+                viewBox="0 0 16 16" class="bi bi-arrow-right">
                 <path fill-rule="evenodd"
                   d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z">
                 </path>
@@ -132,7 +156,8 @@
           <div>
             <h4>Risico</h4>
             <p>Risico's horen bij het vak. Echter zijn wij niet aansprakelijk voor ongehoorzaamheid. Ben je het niet
-              eens met onze veiligheidprotocolen? Dan aanvaar je zelf de risico's.</p><a href="https://www.wetrecht.nl/aansprakelijkheid/">Niet
+              eens met onze veiligheidprotocolen? Dan aanvaar je zelf de risico's.</p><a
+              href="https://www.wetrecht.nl/aansprakelijkheid/">Niet
               aansprakelijkheids wet&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
                 fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-right">
                 <path fill-rule="evenodd"
@@ -223,7 +248,7 @@
                 src="assets/img/sporten.jpg">
               <div class="card-body p-4">
                 <p class="text-primary card-text mb-0"><a href="sporten.html">fitness</a></p>
-               
+
                 <h4 class="card-title">Fitness&nbsp;</h4>
                 <p class="card-text">Fitness is een sportactiviteit gericht op onder andere het verbeteren van de
                   conditie, vetverbranding en krachttraining, waarbij het eigen lichaam als weerstand kan dienen. Vaak
@@ -244,7 +269,7 @@
                 src="assets/img/wat-is-airsoft-1-1280x853.jpg">
               <div class="card-body p-4">
                 <p class="text-primary card-text mb-0"><a href="airsoft.html"> airsoft</a></p>
-               
+
                 <h4 class="card-title">Airsoft</h4>
                 <p class="card-text">nieuwe schietsport waarbij twee of meer teams het tegen
                   elkaar opnemen in verschillende game modes. In tegenstelling tot paintball, ligt bij airsoft de nadruk
@@ -413,7 +438,11 @@
                   <div class="card-body p-4">
                     <p class="text-primary card-text mb-0"><a href="mentaldev.html">Mentale Ontwikkeling</a></p>
                     <h4 class="card-title">Mindfullness</h4>
-                    <p class="card-text">Mindfullness is tegenwoordig heel hip. Iedereen kan dit doen. Maar wat doet mind fullness nou eigenlijk? Door Mindfulness training ervaren mensen minder stress en onrust, hebben minder last van piekeren, ze kunnen beter met stressvolle situaties omgaan. Mindfulness training maakt dat mensen zich beter kunnen concentreren, beter kunnen leren en een beter geheugen krijgen. </p>
+                    <p class="card-text">Mindfullness is tegenwoordig heel hip. Iedereen kan dit doen. Maar wat doet
+                      mind fullness nou eigenlijk? Door Mindfulness training ervaren mensen minder stress en onrust,
+                      hebben minder last van piekeren, ze kunnen beter met stressvolle situaties omgaan. Mindfulness
+                      training maakt dat mensen zich beter kunnen concentreren, beter kunnen leren en een beter geheugen
+                      krijgen. </p>
                     <div class="d-flex"><img class="rounded-circle flex-shrink-0 me-3 fit-cover" width="50" height="50"
                         src="assets/img/timobergthaler.jpeg">
                       <div>
@@ -430,7 +459,9 @@
                   <div class="card-body p-4">
                     <p class="text-primary card-text mb-0"><a href="mentaldev.html">Mentale Ontwikkeling</a></p>
                     <h4 class="card-title">Filosofie</h4>
-                    <p class="card-text">De filosofie of wijsbegeerte is de oudste theoretische discipline die het verlangen en het streven uitdrukt naar kennis en wijsheid. Zij kwam voor het eerst echt op in de 6e eeuw v.Chr. Een beoefenaar van de filosofie wordt een filosoof of wijsgeer genoemd.</p>
+                    <p class="card-text">De filosofie of wijsbegeerte is de oudste theoretische discipline die het
+                      verlangen en het streven uitdrukt naar kennis en wijsheid. Zij kwam voor het eerst echt op in de
+                      6e eeuw v.Chr. Een beoefenaar van de filosofie wordt een filosoof of wijsgeer genoemd.</p>
                     <div class="d-flex"><img class="rounded-circle flex-shrink-0 me-3 fit-cover" width="50" height="50"
                         src="assets/img/timobergthaler.jpeg">
                       <div>
@@ -474,7 +505,10 @@
                       <div class="card-body p-4">
                         <p class="text-primary card-text mb-0"><a href="games.html">Gaming</a></p>
                         <h4 class="card-title">Gaming</h4>
-                        <p class="card-text">Een computerspel is een elektronisch spel dat op een computer, console of handheld gespeeld wordt. Steeds vaker zijn deze spellen ook voor andere systemen en computers, zoals pda's, mobiele telefoons, smartphones, tablets en draagbare spelcomputers verkrijgbaar.</p>
+                        <p class="card-text">Een computerspel is een elektronisch spel dat op een computer, console of
+                          handheld gespeeld wordt. Steeds vaker zijn deze spellen ook voor andere systemen en computers,
+                          zoals pda's, mobiele telefoons, smartphones, tablets en draagbare spelcomputers verkrijgbaar.
+                        </p>
                         <div class="d-flex"><img class="rounded-circle flex-shrink-0 me-3 fit-cover" width="50"
                             height="50" src="assets/img/sylvester.jpg">
                           <div>
@@ -490,9 +524,11 @@
                         src="assets/img/Genshin-Impact-anime.jpg">
                       <div class="card-body p-4">
                         <p class="text-primary card-text mb-0"><a href="games.html#onepiece">Animaties</a></p>
-                        
+
                         <h4 class="card-title">Animaties</h4>
-                        <p class="card-text">Animatie is de illusie van beweging door het na elkaar afspelen van verschillende stilstaande beelden, zogenaamde frames. Er wordt onderscheid gemaakt tussen traditionele animatie en digitale animatie.</p>
+                        <p class="card-text">Animatie is de illusie van beweging door het na elkaar afspelen van
+                          verschillende stilstaande beelden, zogenaamde frames. Er wordt onderscheid gemaakt tussen
+                          traditionele animatie en digitale animatie.</p>
                         <div class="d-flex"><img class="rounded-circle flex-shrink-0 me-3 fit-cover" width="50"
                             height="50" src="assets/img/sylvester.jpg">
                           <div>
@@ -509,7 +545,9 @@
                       <div class="card-body p-4">
                         <p class="text-primary card-text mb-0"><a href="games.html#python">Software developer</a></p>
                         <h4 class="card-title">Software development</h4>
-                        <p class="card-text">Softwareontwikkeling is het proces van bedenken, specificeren, ontwerpen, programmeren, documenteren, testen en oplossen van fouten dat betrokken is bij het maken en onderhouden van applicaties, frameworks of andere</p>
+                        <p class="card-text">Softwareontwikkeling is het proces van bedenken, specificeren, ontwerpen,
+                          programmeren, documenteren, testen en oplossen van fouten dat betrokken is bij het maken en
+                          onderhouden van applicaties, frameworks of andere</p>
                         <div class="d-flex"><img class="rounded-circle flex-shrink-0 me-3 fit-cover" width="50"
                             height="50" src="assets/img/sylvester.jpg">
                           <div>
@@ -533,65 +571,65 @@
   <!-- Start footer -->
   <footer>
     <div class="ftcontainer">
-       <div class="ftrow">
-          <div class="ftcol" id="company">
-             <img src="ik hou van hobbies.jpeg" alt="" class="logo">
-             <p>
-                ihvh is gespecialiseerd in het organisseren van een prachtige en leuke evenemeten naar uw wens
-                lijkt het wat voor u twijfel geen enkel momment neem direct contact met ons op .
-             </p>
-             <div class="social">
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-             </div>
+      <div class="ftrow">
+        <div class="ftcol" id="company">
+          <img src="ik hou van hobbies.jpeg" alt="" class="logo">
+          <p>
+            ihvh is gespecialiseerd in het organisseren van een prachtige en leuke evenemeten naar uw wens
+            lijkt het wat voor u twijfel geen enkel momment neem direct contact met ons op .
+          </p>
+          <div class="social">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
           </div>
- 
- 
-          <div class="ftcol" id="services">
-             <h3>Services</h3>
-             <div class="links">
-                <a href="binnenhobby's.html">muziek</a>
-                <a href="games.html">games</a>
-                <a href="index.html">algemeen</a>
-             </div>
+        </div>
+
+
+        <div class="ftcol" id="services">
+          <h3>Services</h3>
+          <div class="links">
+            <a href="binnenhobby's.html">muziek</a>
+            <a href="games.html">games</a>
+            <a href="index.html">algemeen</a>
           </div>
- 
-          <div class="ftcol" id="useful-links">
-             <h3>Links</h3>
-             <div class="links">
-                <a href="contact.html">contact</a>
-                <a href="about.html">about page</a>
-                <a href="support.html">support</a>
-             </div>
+        </div>
+
+        <div class="ftcol" id="useful-links">
+          <h3>Links</h3>
+          <div class="links">
+            <a href="contact.html">contact</a>
+            <a href="about.html">about page</a>
+            <a href="support.html">support</a>
           </div>
- 
-          <div class="ftcol" id="contact">
-             <h3>Contact</h3>
-             <div class="contact-details">
-                <i class="fa fa-location"></i>
-                <p>Bevrijdingslaan 8, <br> 6114 DA , NL <br> Susteren</p>
-             </div>
-             <div class="contact-details">
-                <i class="fa fa-phone"></i>
-                <p>+31 6098754367</p>
-             </div>
+        </div>
+
+        <div class="ftcol" id="contact">
+          <h3>Contact</h3>
+          <div class="contact-details">
+            <i class="fa fa-location"></i>
+            <p>Bevrijdingslaan 8, <br> 6114 DA , NL <br> Susteren</p>
           </div>
-       </div>
- 
-       <div class="ftrow">
-          <div class="ftform">
-             <form action="">
-                <input type="text" placeholder="Email here...">
-                <button><i class="fa fa-paper-plane"></i></button>
-             </form>
+          <div class="contact-details">
+            <i class="fa fa-phone"></i>
+            <p>+31 6098754367</p>
           </div>
-       </div>
- 
+        </div>
+      </div>
+
+      <div class="ftrow">
+        <div class="ftform">
+          <form action="">
+            <input type="text" placeholder="Email here...">
+            <button><i class="fa fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+
     </div>
- </footer>
+  </footer>
 </body>
 
 </html>
