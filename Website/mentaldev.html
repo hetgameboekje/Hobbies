@@ -179,7 +179,20 @@
                   <h2 class="fw-bold text-white mb-3">Denksporten zijn ook goed voor jouw ontwikkeling!</h2>
                   <p class="mb-4">Je verslaat je opponent meestal door meerdere stappen probleemoplossend vooruit te
                     denken. Daarbij helpen andere vaardigheden je doorgaans een extra handje zoals; logisch redeneren,
-                    rekenvaardigheid, ruimtelijk inzicht en bovenal opperste concentratie.</p>
+                    rekenvaardigheid, ruimtelijk inzicht en bovenal opperste concentratie.    <div class="row">
+                      <div class="column" onclick="openTab('b1');" style="background:#76dca7 ">
+                        <h3>schaken</h3>
+                      </div></p>
+                      <div id="b1" class="containerTab" style="display:none;background:#76dca7">
+                        <!-- If you want the ability to close the container, add a close button -->
+                        <span onclick="this.parentElement.style.display='none'" class="closebtn"><img src="ico/x-square.png" width="32px"
+                            alt=""></span>
+                        <p>
+                          <div id="schaak_id"></div>  
+                          <script src="assets/js/schaken.js"></script>
+
+                        </p>
+                      </div>
                   <div class="my-3"><a class="btn btn-primary btn-lg me-2" role="button"
                       href="https://escapehunt.com/nl/groningen/2016/08/22/wat-doet-denksport-met-je-brein/#:~:text=Je%20verslaat%20je%20opponent%20meestal,inzicht%20en%20bovenal%20opperste%20concentratie.">Wat
                       doet denksport?</a><a class="btn btn-light btn-lg" role="button"
